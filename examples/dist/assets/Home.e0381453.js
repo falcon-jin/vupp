@@ -1,0 +1,1 @@
+import{_ as e}from"./index.032f7dc4.js";import{o,g as t,h as r}from"./vendor.d451edca.js";const c={},s=r("h1",null,"\u9996\u9875",-1),n=[s];function _(a,l){return o(),t("div",null,n)}var i=e(c,[["render",_]]);export{i as default};

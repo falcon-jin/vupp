@@ -1,0 +1,1 @@
+import{f as c,r as l,o as s,b as a}from"./vendor.d451edca.js";const p=c({setup(r){const o=e=>{console.log(e)},t=e=>{console.log(e)};return(e,i)=>{const n=l("v-city-selector");return s(),a(n,{onHandleClickCity:o,onHandleSelectCity:t})}}});export{p as default};

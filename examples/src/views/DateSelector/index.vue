@@ -10,7 +10,6 @@
   @startChange="handleStartChange"
   @endChange="handleEndChange"
 />
-
 </template>
 
 <script setup lang='ts'>
@@ -26,7 +25,3 @@ let startOptions = {
   clearable: false
 }
 </script>
-
-<style lang='scss' scoped>
-
-</style>

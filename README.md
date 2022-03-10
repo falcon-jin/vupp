@@ -1,11 +1,80 @@
-# Vue 3 + Typescript + Vite
+## VUPP
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+> Vue3 + Element Plus + Typescript 疯装的业务组件库
 
-## Recommended IDE Setup
+### 开始
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+快速启动一个 [vite]() 项目:
 
-## Type Support For `.vue` Imports in TS
+```shell
+$ yarn create vite demo --template vue-ts
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+$ cd demo
+$ yarn
+$ yarn dev
+```
+
+#### 安装依赖
+
+```shell
+$ yarn element-plus @element-plus/icons-vue
+$ yarn add vupp
+```
+
+#### 使用
+
+> 示例请参考[examples](./examples/src/views/).
+
+```js
+// src/main.ts
+import { createApp } from "vue";
+import ElementPlus from "element-plus";
+import "element-plus/dist/index.css";
+import * as Icons from "@element-plus/icons-vue";
+import App from "./App.vue";
+
+import vupp from "vupp"; // all in
+import "vupp/lib/style.css";
+
+const app = createApp(App);
+app.use(router);
+app.use(ElementPlus);
+app.use(vupp);
+app.mount("#app");
+```
+
+使用
+
+```vue
+<template>
+  <v-date-selector
+    @startChange="handleStartChange"
+    @endChange="handleEndChange"
+    :startOptions="startOptions"
+  />
+  <br />
+  <v-date-selector
+    :disableBeforeToday="false"
+    @startChange="handleStartChange"
+    @endChange="handleEndChange"
+  />
+</template>
+
+<script setup lang="ts">
+const handleStartChange = (data: Date) => {
+  console.log("startChange", data);
+};
+const handleEndChange = (data: any) => {
+  console.log("startChange", data);
+};
+
+// extend
+let startOptions = {
+  clearable: false,
+};
+</script>
+```
+
+## Licence
+
+[GPL](LICENSE)

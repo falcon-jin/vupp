@@ -1,0 +1,7 @@
+{
+  "name": "vform",
+  "main": "index.umd.js",
+  "module": "index.esm.js",
+  "style": "style.css"
+}
+  

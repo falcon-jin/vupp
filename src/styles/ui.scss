@@ -1,0 +1,31 @@
+/*
+  重置组件库样式
+   - 1.自定义类命名空间
+   - 2.先在浏览器调试样式
+   - 3.使用类名
+   - 4.在App.vue引入该文件
+   - 5.在组件内需要该样式的元素的父元素加上此类名
+*/
+.v-icon-selector__dialog-body--height,
+.v-modal-form__dialog-body--height {
+  .el-dialog__body {
+    height: 60vh;
+    overflow-y: scroll;
+  }
+}
+
+.v-list__wrapper {
+  .el-tabs__nav {
+    width: 100%;
+    display: flex;
+  }
+  .el-tabs__item {
+    flex: 1;
+    text-align: center;
+  }
+}
+
+.v-notification__wrapper{
+  padding: 0 !important;
+}
+

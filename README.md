@@ -17,7 +17,7 @@ $ yarn dev
 #### 安装依赖
 
 ```shell
-$ yarn element-plus @element-plus/icons-vue
+$ yarn add element-plus @element-plus/icons-vue
 $ yarn add vupp
 ```
 

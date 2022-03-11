@@ -1,6 +1,7 @@
 ## VUPP
 
-> Vue3 + Element Plus + Typescript 疯装的业务组件库
+> Vue3 + Element Plus + Typescript 疯装的业务组件库.
+> 由 [`der-cli`](https://der-cli.vercel.app) 保驾护航
 
 ### 开始
 

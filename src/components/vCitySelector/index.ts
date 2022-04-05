@@ -1,4 +1,4 @@
-import App from "vue";
+import type {App} from "vue";
 import vCitySelector from "./src/index.vue";
 
 export default {

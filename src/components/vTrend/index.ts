@@ -1,4 +1,4 @@
-import App from "vue";
+import type {App} from "vue";
 import vTrend from "./src/index.vue";
 
 // app.use(vIconSelector)

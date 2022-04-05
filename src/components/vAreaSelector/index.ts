@@ -1,4 +1,4 @@
-import App from "vue";
+import type {App} from "vue";
 import vAreaSelector from "./src/index.vue";
 
 // app.use(vAreaSelector)

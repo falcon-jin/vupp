@@ -1,4 +1,4 @@
-import App from "vue";
+import type {App} from "vue";
 import vList from "./src/index.vue";
 
 // app.use(vIconSelector)

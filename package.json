@@ -1,7 +1,7 @@
 {
-  "name": "vupp",
+  "name": "falcon-ui",
   "private": false,
-  "version": "0.1.4",
+  "version": "0.0.1",
   "main": "lib/vupp.umd.js",
   "module": "lib/vupp.esm.js",
   "typings": "lib/index.d.ts",
@@ -42,8 +42,8 @@
     "vue-tsc": "^0.29.8"
   },
   "author": {
-    "name": "yesmore",
-    "email": "songsonghhhh@gmail.com"
+    "name": "falcon",
+    "email": "falcon@gmail.com"
   },
   "keywords": [
     "Vue3",

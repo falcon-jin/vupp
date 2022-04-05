@@ -1,4 +1,4 @@
-import App from "vue";
+import type {App} from "vue";
 import vAreaSelector from "./components/vAreaSelector";
 import vIconSelector from "./components/vIconSelector";
 import vTrend from "./components/vTrend";

@@ -14,12 +14,12 @@
     "@element-plus/icons-vue": "^1.0.1",
     "@types/mockjs": "^1.0.6",
     "element-plus": "^2.0.4",
+    "fa-el-ui": "^0.0.1",
     "mockjs": "^1.1.0",
     "sass": "^1.49.9",
     "sass-loader": "^12.6.0",
     "vue": "^3.2.25",
-    "vue-router": "4",
-    "vupp": "^0.1.2"
+    "vue-router": "4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.0",

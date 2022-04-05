@@ -9,13 +9,13 @@ import "./mock";
 // import vupp from "../../src/index"; // dev
 // import vupp from "../../lib/vupp.esm"; // all
 // import "../../lib/style.css";
-import vupp from "vupp"; // all
-import "vupp/lib/style.css";
+import falcon from "fa-el-ui"; // all
+import "fa-el-ui/lib/style.css";
 // import vMenu from "../../lib/components/vMenu/index.esm";
 
 const app = createApp(App);
 app.use(router);
 app.use(ElementPlus);
-app.use(vupp);
+app.use(falcon);
 // app.use(vMenu);
 app.mount("#app");

@@ -10,8 +10,8 @@
     "build:dep": "vite build",
     "preview": "vite preview",
     "build": "node ./command/build.js",
-    "lib": "yarn build",
-    "dep": "yarn build:dep"
+    "lib": "pnpm build",
+    "dep": "pnpm build:dep"
   },
   "files": [
     "lib"
